@@ -52,7 +52,7 @@ class App extends Component {
 
         <div className="mt-3">
           <form onSubmit={this.handleSubmit}>
-            <div class="form-group">
+            <div className="form-group">
               <label className="font-weight-bold">Add message</label>
               <input type="text"
                 className={`form-control ${error ? 'is-invalid' : ''}`}
